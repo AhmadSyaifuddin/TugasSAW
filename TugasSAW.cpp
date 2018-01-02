@@ -46,7 +46,8 @@ int main(){
 			cout <<a3c[k] << " | ";
 			k++;
 		}while(k<5);cout << endl;
-		
+	
+	cout << endl;	
 	cout << "MATRIKS R :"<<endl;
 	int l=0;
 		do{
@@ -63,14 +64,16 @@ int main(){
 			cout <<Ra3c[n]<< " | ";
 			n++;
 		}while(n<5);cout<< endl;
-		
+	
+	cout << endl;	
 	cout << "BOBOT W :"<<endl;
 	int O=0;
 		do{
 			cout <<w[O] << " | ";
 			O++;
 		}while(O<5);cout<< endl;
-		
+	
+	cout << endl;	
 	cout << " MATRIKS R * W :" << endl;
 	int p=0;
 		do {
