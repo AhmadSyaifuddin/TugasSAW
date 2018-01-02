@@ -32,43 +32,43 @@ int main(){
 			 	  
 	cout << "MATRIKS X :"<<endl;
 	int i=0;
-	do{
-		cout<<a1c[i] << " | ";
-		i++;
+		do{
+			cout <<a1c[i] << " | ";
+			i++;
 		}while(i<5);cout<< endl;
 	int j=0;
-	do{
-		cout<<a2c[j] << " | ";
-		j++;
+		do{
+			cout <<a2c[j] << " | ";
+			j++;
 		}while(j<5);cout << endl;
 	int k=0;
-	do{
-		cout<<a3c[k] << " | ";
-		k++;
+		do{
+			cout <<a3c[k] << " | ";
+			k++;
 		}while(k<5);cout << endl;
 		
 	cout << "MATRIKS R :"<<endl;
 	int l=0;
-	do{
-		cout<<Ra1c[l] << " | ";
-		l++;
+		do{
+			cout <<Ra1c[l] << " | ";
+			l++;
 		}while(l<5);cout<< endl;
 	int m=0;
-	do{
-		cout<<Ra2c[m]<< " | ";
-		m++;
+		do{
+			cout <<Ra2c[m]<< " | ";
+			m++;
 		}while(m<5);cout<< endl;
 	int n=0;
-	do{
-		cout<<Ra3c[n]<< " | ";
-		n++;
+		do{
+			cout <<Ra3c[n]<< " | ";
+			n++;
 		}while(n<5);cout<< endl;
 		
 	cout << "BOBOT W :"<<endl;
 	int O=0;
-	do{
-		cout<<w[O] << " | ";
-		O++;
+		do{
+			cout <<w[O] << " | ";
+			O++;
 		}while(O<5);cout<< endl;
 		
 	cout << " MATRIKS R * W :" << endl;
@@ -87,4 +87,10 @@ int main(){
 			cout <<RWa3c[r] << " | ";
 			r++;
 		}while(r<5);cout << endl;
+		
+	cout << endl;
+	cout << "NILAI AKHIR:   " << endl;
+	cout <<"Nilai A1   :   "<<ha[0] << endl;
+	cout <<"Nilai A2   :   "<<ha[1] << endl;
+	cout <<"Nilai A3   :   "<<ha[2] << endl;
 }
