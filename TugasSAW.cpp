@@ -63,4 +63,11 @@ int main(){
 		cout<<Ra3c[n]<< " | ";
 		n++;
 		}while(n<5);cout<< endl;
+		
+	cout << "BOBOT W :"<<endl;
+	int O=0;
+	do{
+		cout<<w[O] << " | ";
+		O++;
+		}while(O<5);cout<< endl;
 }
